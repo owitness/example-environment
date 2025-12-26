@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: example-application
-        image: python:3.9-slim
+        image: docker.io/owitness/example-application:v1.0.0
         ports:
         - containerPort: 8080
         command: ["/bin/sh", "-c"]
